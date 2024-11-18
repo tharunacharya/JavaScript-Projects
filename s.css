@@ -1,0 +1,40 @@
+body{
+    margin-left: 100px;
+    margin-top: 100px
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+.box{
+    height: 400px;
+    width: 300px;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#box1{
+    background-color: lightcoral;
+    background-image: url(hero_image.jpg);
+    background-size: cover;
+}
+
+#box2{
+    background-color: yellowgreen;
+}
+
+#box2{
+    background-color:yellow;
+}
+
+#box4{
+    background-color: green;
+}
+
